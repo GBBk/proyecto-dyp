@@ -39,7 +39,6 @@ const corsOptions = {
   origin: [
     "http://localhost:5173",
     "https://presumably-joint-marmot.ngrok-free.app",
-    "https://c989-200-114-108-236.ngrok-free.app",
   ],
   credentials: true,
 };

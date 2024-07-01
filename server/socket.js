@@ -10,7 +10,7 @@ const dbConfig = {
 function initializeSocket(server) {
   const io = new Server(server, {
     cors: {
-      origin: ["https://c989-200-114-108-236.ngrok-free.app"],
+      origin: ["http://localhost:5173"],
       credentials: true,
     },
   });
