@@ -1,0 +1,55 @@
+.perfil__info {
+margin-top: 20px;
+}
+  
+.form-group {
+    margin-bottom: 10px;
+}
+
+
+.sucess-message {
+    color: rgb(21, 209, 21);
+    font-size: 20px;
+}
+
+.success, .error {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.error-message {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+
+.perfil__submit {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: .9rem;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #e99d42;
+}
+
+.perfil__submit:hover{
+    background-color: #d48b32;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}

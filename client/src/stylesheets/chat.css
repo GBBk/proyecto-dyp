@@ -1,0 +1,123 @@
+/* chat.css */
+
+/* Estilo para la interfaz del chat */
+.chat-interface {
+  display: flex;
+  height: 80vh;
+  margin: 10px;
+}
+
+.usuario-lista {
+  flex: 1;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+  margin: 5px 0;
+}
+
+.usuario-lista h3 {
+  margin: 0;
+  padding: 11px;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+}
+
+.usuario-lista ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.usuario-lista li {
+  font-size: 18px;
+  padding: 10px 15px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.usuario-lista li:hover {
+  background-color: #ddd;
+}
+
+
+
+.usuario-lista li.selected {
+  background-color: #4caf50;
+  color: white;
+}
+
+.chat-area {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  
+  height: 90vh;
+}
+
+.chat-messages {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: scroll;
+  
+}
+
+.message {
+  font-size: 17px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  max-width: 90%;
+  
+  
+}
+
+.my-message {
+  background-color: #daf1da;
+  text-align: end;
+  align-self: flex-end;
+}
+
+.their-message {
+  background-color: #f1f1f1;
+  align-self: flex-start;
+}
+
+.input-area {
+  display: flex;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  max-width: 90%;
+  margin: 5px 0 5px 10px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.input-area button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-area button:hover {
+  background-color: #45a049;
+}
+
+.timestamp {
+  font-size: 0.8em;
+  color: #666;
+  bottom: 5px;
+  right: 10px;
+  
+}

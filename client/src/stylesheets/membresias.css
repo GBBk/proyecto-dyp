@@ -1,0 +1,35 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+
+.membresias-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1em;
+}
+
+.select-membresias {
+  font-size: 17px;
+}
+
+.crear-plan-btn {
+  margin-left: 20px;
+  font-size: 19px;
+  padding: 13px;
+  color: #fff;
+  background-color: #35ff22;
+  border-radius: 10%;
+  border: none;
+  
+  font-weight: 400;
+}
+
+.crear-plan-btn:hover{
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+

@@ -1,0 +1,83 @@
+/* ArticulosFitness.css */
+
+.articulos-fitness {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.articulos-fitness h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.articulos-fitness ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.articulos-fitness li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.articulos-fitness li:last-child {
+  border-bottom: none;
+}
+
+.articulos-fitness h3 {
+  font-size: 20px;
+  color: #0066cc;
+}
+
+.articulos-fitness p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.articulos-fitness a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.articulos-fitness a:hover {
+  text-decoration: underline;
+}
+
+.form-busqueda label{
+  margin-right: 10px;
+  
+}
+
+.form-busqueda input {
+  width: 30%;
+  font-size: 15px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+}
+
+.pagination button {
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #e18948;
+  border-style: none;
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 20px; 
+}
+
+.pagination button:hover {
+  background-color: #d48b32;
+	cursor: pointer;
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
+
+.table-desktop{
+	width: 80%;
+	border-collapse: collapse;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.table-desktop tr th {
+	background-color: #999;
+	color: #111;
+	border: 1px solid #666;
+	padding: 5px;
+	text-align: center;
+
+}
+
+.table-desktop tr td {
+	border: 1px solid #999;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.table-desktop tr:nth-of-type(odd){
+	background-color: #dfdfdf;
+}
+
+.table-input{
+	background-color: transparent;
+	border: 1px solid #999;
+	padding: 10px;
+	border-radius: 5px;
+	display: flex;
+	margin: auto;
+	font-size: 12px;
+	width: 100%;
+	min-width: 100px;
+}
+
+.submit-btn{
+	display: flex;
+	margin: auto;
+}
+
+.search-bar-user {
+	display: flex;
+	margin: auto;
+	width: 50vh;
+	padding: 10px;
+}
+
+.search-bar-user input {
+	flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 17px;
+	min-width: 100px;
+	flex: 1;
+}
+
+
+.search-bar-user label {
+	margin-left: 10px;
+  padding: 10px 20px;
+	font-size: 1em;
+}
+
+.activa {
+	color: rgb(65, 218, 60);
+	font-weight: 600;
+	text-align: center;
+	font-size: 18px;
+}
+
+.inactiva {
+	color: rgb(255, 0, 0);
+  font-weight: 600;
+  text-align: center;
+  font-size: 18px;
+}

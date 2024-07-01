@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 30px !important; 
+}
+
+.auth-container {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #efefef;
+    
+}
+
+.dyp{
+    width: 100%;
+    max-width: 400px;
+    min-width: 120px;
+}
+
+.form{
+    background-color: #fff;
+    margin: auto;
+    max-width: 500px;
+    padding: 3em 1em;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0/30%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__h2{
+    font-size: 1.8rem;
+}
+
+.form__p{
+    font-weight: 300;
+    margin: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.warnings{
+    color: #000;
+    font-size: 1.4rem;
+    background-color: #ffb2b2;
+    padding: 5px;
+    
+}
+
+.success{
+    color: #48e;
+    font-size: 1.4rem;
+}
+
+
+.form__link{
+    color: #cc3123;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.form__container{
+    margin-top: 1.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.2em;
+    width: 100%;
+}
+
+.form__group{
+    min-width: 10px;
+}
+
+.form__input{
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    width: 100%;
+    color: #000;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: 1px solid #bbb;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+
+.form__submit{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e99d42;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+    padding: .9em 0;
+    width: 100%;
+}
+
+.form__submit:hover{
+    background-color: #d48b32;
+}
+

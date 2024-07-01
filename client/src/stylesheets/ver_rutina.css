@@ -1,0 +1,67 @@
+.contenedor-imagen{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 385px;
+  
+}
+
+img {
+  max-width: 485px;
+  max-height: 385px;
+}
+
+.imagen-ejercicio{
+  width: 100%;
+}
+
+
+.encabezado {
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedor-rutinas:first-child{
+  margin: 0;
+}
+
+.contenedor-rutinas{
+  margin: 15px 0 20px;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+}
+ 
+.ejercicios-rutinas{
+  margin-left: 4px;
+  list-style: none;
+  padding: 7px;
+}
+
+.ejercicios-rutinas div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 17px;
+}
+
+.detalles-rutina{
+  margin: 10px 0;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+
+.modal-btn-eliminar {
+  margin-top: 15px;
+}
+
+.mostrar-imagen-btn{
+  padding: 7px;
+  min-width: min-content;
+  max-width: max-content;
+  border: 1px solid #666;
+  border-radius: 2px;
+  margin-top: 10px;
+}

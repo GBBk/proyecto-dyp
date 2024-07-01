@@ -1,0 +1,68 @@
+main {
+  margin-bottom: 50px;
+}
+
+.historial-usuarios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  width: 100%;
+  max-width: 400px;
+  margin: 8px auto;
+}
+
+.card-header {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.card-body {
+  margin-bottom: 8px;
+}
+
+.card-footer {
+  text-align: right;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.flex-gap-container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.flex-gap-container p {
+  display: inline;
+}
+
+
+.ver-ejercicio-btn {
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #e18948;
+  border-style: none;
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 15px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.ver-ejercicio-btn:hover {
+  background-color: #af7329;
+  cursor: pointer;
+}

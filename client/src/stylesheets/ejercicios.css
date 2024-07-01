@@ -1,0 +1,108 @@
+.subtitle{
+  margin-top: 90px;
+}
+
+.ej__item {
+  cursor: pointer;
+  margin: 15px 0;
+
+}
+
+.ej__item:hover {
+  background-color: #f0f0f0;
+}
+
+.imagen-container {
+  display: none;
+  margin: 20px 0;
+}
+
+#imagen-ejercicio {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.ej__form {
+  margin-top: 20px;
+}
+
+.ej__file {
+  margin-bottom: 18px;
+}
+
+.form__submit {
+  width: 100%;
+}
+
+.pagination-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+
+}
+
+.crud-buttons{
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+}
+
+.pagination-buttons button, .crud-buttons a, .crud-buttons button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: .9rem;
+}
+
+.pagination-buttons button{
+  background-color: #e99d42;
+}
+
+.pagination-buttons button:hover{
+  background-color: #d48b32;
+}
+
+#modificarBtn {
+  background-color: #48e;
+  margin-right: 2px;
+}
+
+#modificarBtn:hover {
+  background-color: #6af;
+}
+
+#eliminarBtn {
+  background-color: #f00;
+}
+
+#eliminarBtn:hover {
+  background-color: #f55;
+}
+
+.cancelar{
+  background-color: #999;
+  margin-left: 5px;
+}
+
+.cancelar:hover{
+  background-color: #bbb;
+}
+
+.modificar{
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+.mb9 {
+  margin-bottom: 9px;
+}
+
+.modal-ejercicio-container{
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  margin: 20px;
+  width: 300px;
+}

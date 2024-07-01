@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
+
+.home{
+	margin-top: 90px;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+	background-color: #efefef;
+}
+
+h1 {
+	color: black;
+	font-size: 70px;
+}

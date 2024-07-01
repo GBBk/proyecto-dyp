@@ -1,0 +1,31 @@
+.contenido-container-chart {
+  background-color: #fff;
+	margin: 20px auto;
+	width: 95%;
+	max-width: 1200px;
+	padding: 1.8em 2.2em;
+	border-radius: 7px;
+	box-shadow: 0 5px 10px -5px rgb(0 0 0/30%);
+}
+
+.top-ejercicios-container {
+  margin-top: 20px;
+}
+
+.ejercicio-item {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ejercicio-nombre {
+  font-weight: bold;
+}
+
+.ejercicio-total {
+  color: #e00909;
+}

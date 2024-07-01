@@ -1,0 +1,79 @@
+.nombre-rutina {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+
+.editar-btn, .eliminar-btn{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: .9rem;
+    margin: 5px;
+}
+
+.editar-btn {
+    background-color: #48e;
+    text-decoration: none;
+    margin-right: 9px;
+}
+
+.editar-btn:hover{
+    background-color: #6af;
+}
+
+.eliminar-btn{
+    background-color:#f00;
+}
+
+.eliminar-btn:hover{
+    background-color: #f55;
+}
+
+.ar-container {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    gap: 0.3em;
+}
+
+.select-container {
+    width: 100%; 
+    max-width: 400px;
+}
+  
+#select {   
+    width: 100%; 
+    box-sizing: border-box;
+    font-size: 19px;
+    margin: 5px 0;
+}
+
+#notas {
+    resize: none;
+    min-width: fit-content;
+}
+
+.rounded-plus-btn{
+    border-radius: 30px;
+    background-color: #e18948;
+    border-style: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.rounded-btn:hover {
+    background-color: #d48b32;
+}
+
+.contenedor-crud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3em;
+    width: 100%;
+    max-width: 400px;
+}

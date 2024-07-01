@@ -1,0 +1,26 @@
+.space-between {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+  padding: 9px;
+}
+
+.lista-usuarios{
+  width: 400px;
+  margin: 20px auto;
+  height: max-content;
+  
+}
+
+.contenido-container-rusers {
+  background-color: #fff;
+	margin: 20px auto;
+	width: 100%;
+	max-width: 600px;
+  min-width: 250px;
+	padding: 1.8em 2.2em;
+	border-radius: 7px;
+	box-shadow: 0 5px 10px -5px rgb(0 0 0/30%);
+  
+}

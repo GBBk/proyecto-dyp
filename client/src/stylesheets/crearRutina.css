@@ -1,0 +1,76 @@
+.input-crear-rutina{
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.ejercicio-rutina {
+  font-size: 19px;
+  margin: 5px;
+  display: flex;
+  max-width: max-content;
+}
+
+.ejercicio-container {
+  margin-bottom: 20px;
+}
+
+.fz{
+  font-size: 19px;
+  min-width: fit-content;
+  max-width: fit-content;
+  margin: auto;
+  padding: 10px;
+}
+
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.mt9 {
+  margin-top: 9px;
+}
+
+.m5 {
+  margin: 5px;
+}
+
+.eliminar-ejercicio-btn {
+  padding: 10px;
+  height: 50%;
+  font-size: 18px;
+  margin: auto;
+  border-radius: 13px;
+  background-color: #f00;
+  color: #fff;
+  border: none;
+}
+
+.eliminar-ejercicio-btn:hover {
+  background-color: rgb(175, 49, 49);
+  cursor: pointer;
+}
+
+.series-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.series {
+  
+  width: 30%;
+  
+}
